@@ -40,7 +40,7 @@ Bu veriler Google ile paylaşılır.</p>
 <p>Oyunu iyileştirmek için (örneğin hangi seviyelerin fazla zor olduğunu, ekonominin dengesini ve reklamların ne sıklıkla
 izlendiğini anlamak) Google Analytics for Firebase kullanırız. Gönderilen bilgiler <strong>oyun içi olaylardır</strong>:
 seviye başlama/bitirme ve sonucu (yıldız, puan, süre), kazanılan ve harcanan oyun altını, izlenen reklamlar, günlük ödül,
-Dalış modu ve "Reklamları kaldır" satın alımı. Adınız, e-postanız veya hesabınız gibi kişisel bilgiler gönderilmez.
+Dalış modu, Hazine Sandığı ve satın almalar ("Reklamları kaldır", altın paketleri: hangi ürünün alındığı). Adınız, e-postanız veya hesabınız gibi kişisel bilgiler gönderilmez.
 Firebase bunlarla birlikte <strong>uygulama örneği kimliği, cihaz ve uygulama bilgileri, yaklaşık konum (IP adresinden, ülke/şehir düzeyi)
 ve uygulama kullanım süresi</strong> gibi bilgileri otomatik olarak işler. Bu veriler Google ile paylaşılır ve toplu istatistik
 olarak görüntülenir; AdMob reklam geliri verileriyle birlikte değerlendirilebilir.</p>
@@ -51,12 +51,12 @@ olarak görüntülenir; AdMob reklam geliri verileriyle birlikte değerlendirile
 </ul>
 
 <h2>Bildirimler</h2>
-<p>İzin verirseniz oyun, günlük ödülünüz hazır olduğunda <strong>günde en fazla bir</strong> hatırlatma gösterir. Hatırlatmalar
+<p>İzin verirseniz oyun, günlük ödülünüz hazır olduğunda ya da Hazine Sandığınız dolduğunda <strong>günde en fazla bir</strong> hatırlatma gösterir. Hatırlatmalar
 telefonunuzda zamanlanır; bunun için hiçbir veri bize ya da başka bir sunucuya gönderilmez. Oyunu birkaç gün açmazsanız
 hatırlatmalar kendiliğinden durur. İzni telefonunuzun ayarlarından istediğiniz zaman kapatabilirsiniz.</p>
 
 <h2>Satın alma (Google Play Faturalandırma)</h2>
-<p>"Reklamları kaldır" satın alımı Google Play üzerinden yapılır. Ödeme bilgilerinize erişmeyiz; yalnızca satın alımın gerçekleştiği bilgisini Google'dan alırız.</p>
+<p>Oyunda isteğe bağlı iki tür satın alma vardır: tek seferlik "Reklamları kaldır" ve oyun içi altın paketleri. Satın almalar Google Play üzerinden yapılır; ödeme bilgilerinize erişmeyiz, yalnızca satın alımın gerçekleştiği bilgisini Google'dan alırız. Aynı satın alımın iki kez işlenmemesi için Google'ın verdiği satın alma kodu cihazınızda saklanır. Altın paketleriyle alınan altın, diğer oyun verileri gibi yalnızca cihazınızda tutulur; uygulamayı silerseniz geri yüklenemez. "Reklamları kaldır" ise Ayarlar → Satın alımı geri yükle ile geri alınabilir. İadeler Google Play'in iade kurallarına tabidir. Tüm seviyeler satın alma yapmadan oynanabilir.</p>
 
 <h2>Cihaz izinleri</h2>
 <ul>
@@ -107,7 +107,7 @@ This data is shared with Google.</p>
 <h2>Game statistics (Google Analytics for Firebase)</h2>
 <p>To improve the game (for example, to see which levels are too hard, how the in-game economy is balanced and how often ads are
 watched) we use Google Analytics for Firebase. The information sent consists of <strong>in-game events</strong>: level start/finish and
-result (stars, score, time), in-game coins earned and spent, ads watched, daily rewards, Dive mode and the "Remove ads" purchase.
+result (stars, score, time), in-game coins earned and spent, ads watched, daily rewards, Dive mode, the Treasure Chest and purchases ("Remove ads", coin packs: which product was bought).
 No personal information such as your name, e-mail or account is sent. Alongside these, Firebase automatically processes data such as
 <strong>an app instance ID, device and app information, approximate location (from the IP address, at country/city level) and app usage time</strong>.
 This data is shared with Google and viewed as aggregated statistics; it may be combined with AdMob ad revenue data.</p>
@@ -118,12 +118,12 @@ This data is shared with Google and viewed as aggregated statistics; it may be c
 </ul>
 
 <h2>Notifications</h2>
-<p>If you allow it, the game shows <strong>at most one</strong> reminder a day when your daily reward is ready. Reminders are scheduled on
+<p>If you allow it, the game shows <strong>at most one</strong> reminder a day when your daily reward is ready or your Treasure Chest is full. Reminders are scheduled on
 your phone; no data is sent to us or to any other server for this. If you don't open the game for a few days, the reminders stop on
 their own. You can turn the permission off in your phone's settings at any time.</p>
 
 <h2>Purchases (Google Play Billing)</h2>
-<p>The "Remove ads" purchase is handled by Google Play. We never see your payment details; we only learn from Google that the purchase was completed.</p>
+<p>The game offers two kinds of optional purchases: a one-time "Remove ads" purchase and in-game coin packs. Purchases are handled by Google Play; we never see your payment details, we only learn from Google that the purchase was completed. To make sure the same purchase is not processed twice, the purchase code issued by Google is stored on your device. Coins bought with coin packs are, like the rest of your game data, kept only on your device and cannot be restored if you uninstall the app. "Remove ads" can be restored via Settings → Restore purchase. Refunds follow Google Play's refund policy. Every level can be played without making a purchase.</p>
 
 <h2>Device permissions</h2>
 <ul>
